@@ -1,4 +1,35 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: url(pexels-tirachard-kumtanom-112571-584305.jpg );
+    background-size: 104%;
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: cursive;
+    font-style: italic;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+h1{
+    border: 3px solid rgb(144, 192, 235);
+    border-radius: 10px;
+}
+
+.login{
+    display:flex;
+    justify-content: center;
+    font-family: cursive;
+    
+   
+}
+login.a{
+    grid-gap: 1px;
 }
