@@ -14,3 +14,5 @@ class Entry(models.Model):
 
     def __str__(self):
         return self.texto[:10] + "..."
+class User(models.Model):
+    nickname = models.CharField(max_length=20, null=False)

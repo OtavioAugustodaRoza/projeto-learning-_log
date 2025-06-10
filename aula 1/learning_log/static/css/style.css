@@ -1,8 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background: url(pexels-tirachard-kumtanom-112571-584305.jpg );
-    background-size: 104%;
+    background: url(images/pexels-tirachard-kumtanom-112571-584305.jpg );
+    background-size: 104%; 
 }
 .inicio{
     display: flex;
@@ -30,6 +30,6 @@ h1{
     
    
 }
-login.a{
-    grid-gap: 1px;
+a{
+    color: rgb(79, 156, 224);
 }

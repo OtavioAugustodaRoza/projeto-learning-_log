@@ -2,4 +2,6 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request, 'learning.logs/index.html')
+    return render(request, 'learning_logs/index.html',)
+def css(request):
+    return render(request,'learning_logs/style.css')

@@ -1,15 +1,53 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>menu de login learning logs</title>
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+    background: url(static/images/pexels-tirachard-kumtanom-112571-584305.jpg);
+    background-size: 104%; 
+}
+.inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: cursive;
+    font-style: italic;
+}
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+}
+
+h1{
+    border: 3px solid rgb(144, 192, 235);
+    border-radius: 10px;
+}
+
+.login{
+    display:flex;
+    justify-content: center;
+    font-family: cursive;
+    
+   
+}
+a{
+    color: rgb(79, 156, 224);
+}
+
+    </style>
 </head>
 <body>
   <div class="inicio">
 <h1>learning logs</h1>
-<img src="images (3).png" alt="book icon">
+<img src="static/images/images (3).png" alt="book icon">
   </div>
   <div class="login">
     <form class>
@@ -17,8 +55,8 @@
  <p><label for="username"> usuário</label>
 <input type="text" placeholder="Username" required id="username"></p>
 <p> <label for="password">senha</label> <input type="password" id="password" required placeholder="Password"></p>
-<a href="#">criar conta</a>
- <a href="#">esqueci a senha</a>
+<p><a href="#">criar conta</a> |
+ <a href="#">esqueci a senha</a></p>
     </form>
   </div>
 </body>
